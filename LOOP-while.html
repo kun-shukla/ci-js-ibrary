@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h2>JavaScript While Loop</h2>
+
+<p id="demo"></p>
+
+    <script>
+let text = "";
+let i = 0;
+while (i < 10) {
+    // Add to 'text' variable after each iteration (seperated by br tag for readability)
+  text = text += "The number is " + i
+//   Display in console
+console.log("The number is " + i)
+  i++;
+}
+// Display on page
+document.getElementById("demo").innerHTML = text;
+    </script>
+    
+</body>
+</html>
